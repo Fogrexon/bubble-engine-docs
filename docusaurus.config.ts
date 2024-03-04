@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Bubble Engine Docs',
-  tagline: 'A new way to make games',
+  title: 'Bubble Engine ドキュメント',
+  tagline: 'WebゲームエンジンBubble Engineの公式ドキュメント',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -25,8 +25,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'ja',
+    locales: ['ja', 'en'],
   },
 
   presets: [
@@ -58,9 +58,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Bubble Engine Docs',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Bubble Engine Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -70,12 +70,17 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Fogrexon/bubble-engine',
           label: 'GitHub',
           position: 'right',
         },
+        {
+          type: 'localeDropdown',
+        },
+        {
+          type: 'docsVersionDropdown',
+        }
       ],
     },
     footer: {
@@ -91,19 +96,15 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Engine',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'GitHub',
+              href: 'https://github.com/Fogrexon/bubble-engine',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Author\'s Twitter',
+              href: 'https://twitter.com/FagLexOn',
             },
           ],
         },
@@ -111,17 +112,13 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Document GitHub',
+              href: 'https://github.com/Fogrexon/bubble-engine-docs',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Fogrexon. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

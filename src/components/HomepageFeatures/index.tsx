@@ -10,32 +10,31 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'ゲームを作るのが簡単',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        ゲームに必要な当たり判定、データロード、ゲームルール設定等のロジックはすべて事前に用意されています。
+        後は、ゲームのデザインに集中するだけです。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '型安全性',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        完全にTypeScriptで書かれており、データ構造やキーバインド等は強力に型付けされています。
+        TypeScriptを用いた強力な型チェックにより、コードの品質を保つことができます。
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '拡張性',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        デフォルトで用意されている機能に満足できなかったら、自分やコミュニティが作った拡張機能を導入することができます。
       </>
     ),
   },
