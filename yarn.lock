@@ -18,7 +18,7 @@ __metadata:
 "@algolia/autocomplete-plugin-algolia-insights@npm:1.9.3":
   version: 1.9.3
   resolution: "@algolia/autocomplete-plugin-algolia-insights@npm:1.9.3"
-  dependencies:
+  dependencies:3
     "@algolia/autocomplete-shared": "npm:1.9.3"
   peerDependencies:
     search-insights: ">= 1 < 3"
