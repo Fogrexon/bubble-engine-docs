@@ -40,13 +40,6 @@ const config: Config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -56,7 +49,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/header.jpg',
     navbar: {
       title: 'Bubble Engine Docs',
       logo: {
@@ -68,7 +61,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Docs',
         },
         {
           href: 'https://github.com/Fogrexon/bubble-engine',
@@ -90,8 +83,16 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Introduction',
               to: '/docs/intro',
+            },
+            {
+              label: 'Functions',
+              to: '/docs/functions',
+            },
+            {
+              label: 'Tutorials',
+              to: '/docs/tutorials',
             },
           ],
         },
@@ -103,8 +104,8 @@ const config: Config = {
               href: 'https://github.com/Fogrexon/bubble-engine',
             },
             {
-              label: 'Author\'s Twitter',
-              href: 'https://twitter.com/FagLexOn',
+              label: 'API Reference',
+              href: 'https://fogrexon.github.io/bubble-engine/',
             },
           ],
         },
@@ -114,6 +115,10 @@ const config: Config = {
             {
               label: 'Document GitHub',
               href: 'https://github.com/Fogrexon/bubble-engine-docs',
+            },
+            {
+              label: 'Author\'s Twitter',
+              href: 'https://twitter.com/FagLexOn',
             },
           ],
         },

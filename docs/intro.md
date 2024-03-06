@@ -2,46 +2,10 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Bubble Engineについて
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Bubble Engineは[Fogrex](https://github.com/Fogrexon/)によって作られた、Web用ゲームエンジンです。
+Bubble Engineは既存のゲームエンジンとは異なり、豊富なゲームロジックを提供することに主眼を置いています。
 
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+ゲームエンジン機能の章では、Bubble Engineが提供したいと考えている機能それぞれについて詳しく解説します。
+チュートリアルの章では、実際のコードも提示しながら、分かりやすくこのエンジンの使い方を解説します。

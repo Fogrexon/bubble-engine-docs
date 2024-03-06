@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'ゲームを作るのが簡単',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
         ゲームに必要な当たり判定、データロード、ゲームルール設定等のロジックはすべて事前に用意されています。
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: '型安全性',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
         完全にTypeScriptで書かれており、データ構造やキーバインド等は強力に型付けされています。
@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: '拡張性',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
         デフォルトで用意されている機能に満足できなかったら、自分やコミュニティが作った拡張機能を導入することができます。
