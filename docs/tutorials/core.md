@@ -64,9 +64,9 @@ import { UILevelManager } from './uiLevelManager';
 import { GameLevelManager } from './gameLevelManager'
 
 export const levels = {
-  title: new UILevelManager(titleLevelRoot()),
-  game: new GameLevelManager(gameLevelRoot()),
-  result: new UILevelManager(resultLevelRoot()),
+  title: titleLevelRoot,
+  game: gameLevelRoot,
+  result: resultLevelRoot,
 } as const
 ```
 

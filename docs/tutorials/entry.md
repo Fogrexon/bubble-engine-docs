@@ -9,7 +9,7 @@ sidebar_position: 2
 ```typescript
 import { createEntry: createNextEntry } from './next';
 // TreeBuildFunc: (core: GameCore) => GameEntry
-export const createEntry: TreeBuildFunc = (core) => {
+export const createEntry: CreateEntryFunc = (core) => {
   const tag = new Tag(
     // タグをセット
   )

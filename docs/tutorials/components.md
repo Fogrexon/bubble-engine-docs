@@ -2,19 +2,7 @@
 sidebar_position: 3
 ---
 
-# コンポーネント
-## コンポーネントの基本的な使い方
-```typescript
-export const createEntry: CreateEntryFunc = (core) => {
-  const sampleComponent = new SampleComponent(...);
-  const gameEntry = new GameEntry({
-    ...,
-    components: [
-      sampleComponent,
-    ]
-  })
-}
-```
+# ゲームエントリを作ってみよう
 
 ゲームエントリの設定例
 
@@ -40,9 +28,6 @@ export const createSampleEntry: CreateEntryFunc = (core) => {
     }
   )
   const colliderComponent = new ColliderComponent(core.collisionLayers.player, [boxCollider]);
-  
-  // 自前のコンポーネントを作ることもできる
-  const customComponent = new CustomComponent();
 
   const gameEntry = new GameEntry({
     id: 'player',
@@ -50,7 +35,6 @@ export const createSampleEntry: CreateEntryFunc = (core) => {
     components: [
       graphicComponent,
       colliderComponent,
-      customComponent,
     ]
   });
 }
