@@ -38,7 +38,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Fogrexon/bubble-engine-docs/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -88,11 +88,11 @@ const config: Config = {
             },
             {
               label: 'Functions',
-              to: '/docs/functions',
+              to: '/docs/category/ゲームエンジン機能',
             },
             {
               label: 'Tutorials',
-              to: '/docs/tutorials',
+              to: '/docs/category/チュートリアル',
             },
           ],
         },
